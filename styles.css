@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: #00ff99;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+}
+
+video {
+  width: 320px;
+  height: auto;
+  border: 2px solid #00ff99;
+  background-color: #111;
+}
+
+.subtitle-box {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #00ff99;
+  min-height: 2em;
+  height: 3em;
+  overflow: hidden;
+}
